@@ -12,7 +12,7 @@ DATA_PATH   = os.path.join(SCRIPT_PATH, 'data/')
 MODEL_PATH  = os.path.join(SCRIPT_PATH, 'model/')
 
 DICTIONARY_FILEPATH = os.path.join(DATA_PATH, 'wiki-english_wordids.txt.bz2')
-WIKI_DUMP_FILEPATH = os.path.join(DATA_PATH, 'enwiki-latest-pages-articles.xml.bz2')
+WIKI_DUMP_FILEPATH = os.path.join(DATA_PATH, 'enwiki-latest-pages-articles-multistream.xml.bz2')
 
 if __name__ == '__main__':
 
